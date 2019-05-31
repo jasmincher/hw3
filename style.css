@@ -36,3 +36,18 @@
     margin: auto;
     padding-top: 50px;
 }
+
+
+#volume{
+    padding-top: 30px;
+    justify-content: center;
+
+}
+
+#volume-container{
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    width: 250px;
+
+}
