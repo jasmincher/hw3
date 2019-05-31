@@ -8,7 +8,7 @@
     <title>Radius of a sphere</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -36,13 +36,11 @@
 
 
 
-
-
-    <div class="container">
+    <div id="volume-container">
         <form>
 
             <div class="form-group">
-                <label for="exampleInputPassword1">Radius</label>
+                <label for="radius">Find the volume of a sphere</label>
                 <input id="radius-input" type="number" class="form-control" placeholder="Enter sphere radius">
             </div>
             <!-- <button id="idk" class="btn btn-outline-dark btn-md" onclick="findVolume();">Find Volume</button> -->
@@ -52,17 +50,15 @@
         <button id="idk" class="btn btn-outline-dark btn-md" onclick="findVolume();">Find Volume</button>
 
         <p id="volume"></p>
+        
     </div>
-
-
-
 
     <script>
         function findVolume() {
             let radius = document.getElementById("radius-input").value;
-            let volume = (4/3) * 3.14 * (radius * radius * radius);
+            let volume = (4 / 3) * 3.14 * (radius * radius * radius);
 
-            document.getElementById("volume").innerHTML = volume;
+            document.getElementById("volume").innerHTML = "The volume is: " + volume;
         }
     </script>
 
