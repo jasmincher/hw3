@@ -47,7 +47,19 @@
 #volume-container{
     text-align: center;
     margin: auto;
-    padding-top: 100px;
-    width: 250px;
+    padding-top: 150px;
+    width: 210px;
 
+}
+
+#radius-input{
+    width: 155px;
+    text-align: center;
+    margin-top: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn{
+    margin-top: 15px;
 }
