@@ -16,7 +16,7 @@ function password(e) {
 
     if ((passW !== "") && (emailA !== "") && (userN !== "")) {
         if (passW === key) {
-            document.getElementById("heading").innerHTML = "Correct Sign In";
+            document.getElementById("heading").innerHTML = "Correct Sign In".fontcolor("green");
         } else {
             alert("Incorrect password");
         }
