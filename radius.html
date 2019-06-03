@@ -62,8 +62,8 @@
         function findVolume() {
             let radius = document.getElementById("radius-input").value;
             let volume = (4 / 3) * 3.14 * (radius * radius * radius);
-
-            document.getElementById("volume").innerHTML = "The volume is: " + volume;
+            let rounded = Math.round(volume * 100) / 100;
+            document.getElementById("volume").innerHTML = "The volume is: " + rounded;
         }
 
 
