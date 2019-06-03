@@ -39,7 +39,7 @@
 
 
 #volume{
-    padding-top: 30px;
+    padding-top: 0px;
     justify-content: center;
 
 }
@@ -58,8 +58,11 @@
     margin-top: 15px;
     display: inline-block;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
-.btn{
-    margin-top: 15px;
+
+#clear-me{
+    margin-top: 30px;
 }
+
